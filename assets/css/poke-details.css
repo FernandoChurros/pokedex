@@ -1,0 +1,39 @@
+
+.wrapper__details {
+    display: none;
+    background-color: #3339;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.show {
+    display: flex;
+}
+
+.details {
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    opacity: 1;
+    padding: 1rem .8rem;
+    margin: 0 1rem;
+}
+
+.btn__close {
+    border: 1px solid #333;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn__close:hover {
+    transform: scale(1.1);
+}

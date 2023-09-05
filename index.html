@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="body">    
+    <section class="content">
+        <h1>Pokedex</h1>
+        
+        <ol class="pokemon__list" data-listPokemons>
+            <!-- Pokemons -->
+        </ol>
+
+        
+    </section>
+
+    <div class="pagination">
+        <button id="loadMoreButton" type="button">
+            Carregar mais...
+        </button>
+    </div>
+
+    <div class="wrapper__details" id="data-popup">
+        <div class="details" id="data-details">
+            <button class="btn__close" type="button" id="data-close">X</button>
+
+            <div class="poke__info" id="data-info"></div>
+        </div>
+    </div>
+
+    <script src="./assets/js/pokemonModel.js"></script>
+    <script src="./assets/js/pokeAPI.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/pokeDetails.js"></script>
+</body>
+</html>

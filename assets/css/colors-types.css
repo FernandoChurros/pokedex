@@ -1,0 +1,68 @@
+
+.primary__type-normal {
+    background-color: var(--normal-bg-color);
+}
+
+.primary__type-grass, .primary__type-grass .type {
+    background-color: var(--grass-bg-color);
+}
+
+.primary__type-fire, .primary__type-fire .type {
+    background-color: var(--fire-bg-color);
+}
+
+.primary__type-water, .primary__type-water .type {
+    background-color: var(--water-bg-color);
+}
+
+.primary__type-electric, .primary__type-electric .type {
+    background-color: var(--electric-bg-color);
+}
+
+.primary__type-ice, .primary__type-ice .type {
+    background-color: var(--ice-bg-color);
+}
+
+.primary__type-ground, .primary__type-ground .type {
+    background-color: var(--ground-bg-color);
+}
+
+.primary__type-flying, .primary__type-flying .type {
+    background-color: var(--flying-bg-color);
+}
+
+.primary__type-psychic, .primary__type-psychic .type {
+    background-color: var(--psychic-bg-color);
+}
+
+.primary__type-dark, .primary__type-dark .type {
+    background-color: var(--dark-bg-color);
+}
+
+.primary__type-rock, .primary__type-rock .type{
+    background-color: var(--rock-bg-color);
+}
+
+.primary__type-ghost, .primary__type-ghost .type{
+    background-color: var(--ghost-bg-color);
+}
+
+.primary__type-steel, .primary__type-steel .type{
+    background-color: var(--steel-bg-color);
+}
+
+.primary__type-dragon, .primary__type-dragon .type{
+    background-color: var(--dragon-bg-color);
+}
+
+.primary__type-fairy, .primary__type-fairy .type{
+    background-color: var(--fairy-bg-color);
+}
+
+.primary__type-poison, .primary__type-poison .type{
+    background-color: var(--poison-bg-color);
+}
+
+.primary__type-bug, .primary__type-bug .type{
+    background-color: var(--bug-bg-color);
+}
