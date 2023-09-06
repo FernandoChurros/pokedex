@@ -5,7 +5,7 @@ const limit = 5;
 function pokemonConvertHTML(pokemon) {
 
      return `
-        <li class="pokemon__list-char primary__type-${pokemon.type}" onclick="pokeDetails()">
+        <li class="pokemon__list-char primary__type-${pokemon.type}">
             <div>
                 <span class="name">${pokemon.name}</span>
                 <span class="number">#${pokemon.number}</span>
