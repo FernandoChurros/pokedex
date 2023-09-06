@@ -14,7 +14,6 @@
     display: flex;
     flex-direction: column;
     row-gap: .5rem;
-    cursor: pointer;
 }
 
 .number {
@@ -56,6 +55,7 @@
     height: 75px;
     align-self: flex-end;
     filter: drop-shadow(4px 6px 0px #333);
+    cursor: pointer;
 }
 
 .name, .type {
