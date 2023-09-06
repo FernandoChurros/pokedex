@@ -56,7 +56,6 @@
 .content {
     padding: 1rem;
     background-color: #F6F8FC;
-    height: 100vh;
 }
 
 .content > h1 {
@@ -70,6 +69,7 @@
     align-items: center;
     width: 100%;
     padding: 1rem;
+
 }
 
 .pagination > button {
